@@ -1,0 +1,25 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/messages_header">
+
+        <ListPreference
+
+            app:defaultValue="3"
+            app:entries="@array/grade"
+            app:entryValues="@array/grade_v"
+            app:key="grade"
+            app:title="@string/grade"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="1"
+            app:entries="@array/ban"
+            app:entryValues="@array/ban"
+            app:key="ban"
+            app:title="@string/ban"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
